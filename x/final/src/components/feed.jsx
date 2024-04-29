@@ -1,5 +1,6 @@
+import React from 'react';
 import { supabase } from '/Users/niya/web-dev-final/we-dev/client.jsx'
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PostCard from './postcard';
 
 function Feed() {
