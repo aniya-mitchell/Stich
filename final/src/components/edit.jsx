@@ -1,5 +1,6 @@
-import { supabase } from '/Users/niya/web-dev-final/we-dev/client.jsx'
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { supabase } from '../client.jsx';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 function Edit() {

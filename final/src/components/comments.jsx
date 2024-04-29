@@ -1,6 +1,6 @@
 import React from 'react';
 import './Comment.css'
-import { supabase } from '../supabaseClient';
+import { supabase } from '../client.jsx';
 
 const Comment = (props) => {
     const deleteComment = async(event) => {
