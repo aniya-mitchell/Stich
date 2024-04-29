@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { supabase } from './client.jsx'
 import { useState } from 'react'
 
