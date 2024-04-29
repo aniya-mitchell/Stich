@@ -1,6 +1,6 @@
-import React from '/react';
-import { useState, useEffect } from '/react';
-import { Link, useParams } from '/react-router-dom';
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { Link, useParams } from 'Save this answer.react-router-dom';
 import { supabase } from './client.jsx';
 
 export default function Post() {
