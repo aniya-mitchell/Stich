@@ -1,5 +1,5 @@
 import React from 'react'
-import { supabase } from '/final/client.jsx'
+import { supabase } from './client.jsx'
 import { useState } from 'react'
 
 function Create() {
