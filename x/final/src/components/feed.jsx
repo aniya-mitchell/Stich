@@ -1,5 +1,5 @@
 import React from 'react';
-import { supabase } from '/Users/niya/web-dev-final/we-dev/client.jsx'
+import { supabase } from '/final/client.jsx'
 import { useEffect, useState } from 'react';
 import PostCard from './postcard';
 
