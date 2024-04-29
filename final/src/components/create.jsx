@@ -1,5 +1,6 @@
-import React from 'react';
-import { supabase } from './client.jsx'
+
+import { supabase } from '/Users/niya/web-dev-final/we-dev/client.jsx'
+import React from 'react'
 import { useState } from 'react'
 
 function Create() {

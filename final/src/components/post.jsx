@@ -1,7 +1,6 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { supabase } from './client.js'
+import { supabase } from '/Users/niya/web-dev-final/we-dev/client.jsx'
 
 export default function Post() {
     const { id } = useParams();
