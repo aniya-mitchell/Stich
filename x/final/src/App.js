@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import App from './App.js';
 import './index.css';
 import Layout from './routes/layout.js';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
