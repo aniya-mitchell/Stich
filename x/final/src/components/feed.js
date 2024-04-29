@@ -1,7 +1,7 @@
 import React from 'react';
-import { supabase } from './client.jsx'
+import { supabase } from './client.js'
 import { useEffect, useState } from 'react';
-import PostCard from './postcard';
+import PostCard from './postcard.jsx';
 
 function Feed() {
     const [posts, setPosts] = useState([]);

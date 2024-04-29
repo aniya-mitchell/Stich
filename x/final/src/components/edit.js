@@ -1,5 +1,5 @@
 import React from 'react';
-import { supabase } from './client.jsx'
+import { supabase } from './client.js'
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
