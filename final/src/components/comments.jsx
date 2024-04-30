@@ -1,5 +1,4 @@
 import React from 'react';
-import './Comment.css'
 import { supabase } from './client.jsx';
 
 const Comment = (props) => {

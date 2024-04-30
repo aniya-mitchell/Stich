@@ -1,0 +1,6 @@
+# Redirects from what the browser requests to what we serve
+/                   /           200
+/feed               /feed       200
+/create-post        /create-post    200
+/feed/post/:id      /feed/post/:id  200
+/feed/edit/:id      /feed/edit/:id  200
