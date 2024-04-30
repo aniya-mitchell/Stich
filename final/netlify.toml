@@ -1,5 +1,0 @@
-[[redirects]]
-from ='/*'
-to = '/index.html'
-satus = 200
-force = true
