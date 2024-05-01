@@ -1,5 +1,5 @@
 import React from 'react'
-import Post from '../components/post'
+import Post from 'src/components/post.jsx'
 import { Route } from 'react-router-dom';
 
 function PostView() {

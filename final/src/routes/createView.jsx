@@ -1,5 +1,5 @@
 import React from 'react'
-import Create from '../components/create'
+import Create from 'src/components/create.jsx'
 import { Route } from 'react-router-dom';
 
 function CreateView() {

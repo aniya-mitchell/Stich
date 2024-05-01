@@ -1,9 +1,0 @@
-
-/                   /        
-/layout             /layout          
-/feed               /feed       
-/create-post        /create-post    
-/feed/post/:id      /feed/post/:id  
-/feed/edit/:id      /feed/edit/:id 
-status = 200
-force = true # 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { supabase } from './client.jsx';
+import { supabase } from 'src/components/client.jsx';
 import ReactDOM from 'react-dom';
 import { useParams } from 'react-router-dom';
 
