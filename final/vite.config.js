@@ -1,16 +1,14 @@
+// vite.config.js
 import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
-import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-server: {
-       host: 'localhost', 
-     hmr: {host: 'localhost'}, 
- }, 
-  plugins: [
-    laravel({
-      input: 'resources/js/app.tsx',
-    }),
-    react(),
-  ],
-}); 
+  // Specify the root directory for your project
+  root: './src',
+
+  // Specify the public directory (where index.html and other static assets are located)
+  publicDir: '../public',
+
+  // Configure the build output directory
+ 
+  // Add any other configurations you need, such as plugins or server settings
+});
