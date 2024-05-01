@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client'; // Import createRoot from the correct location
 import App from 'src/App.jsx';
+import './index.html'; 
 import './index.css';
 import Layout from 'src/routes/layout.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +14,7 @@ import EditView from 'src/routes/editView.jsx';
 // Create a component to contain route configuration
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter>n
       <Routes>
         <Route path='/'>
           <Route index={false} element={<Layout />}>
